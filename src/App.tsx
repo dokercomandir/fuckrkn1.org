@@ -15,7 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="support" element={<Donate />} />
-          {/* <Route path="about" element={<About />} />*/}
+          <Route path="about" element={<about />} />
           <Route path="install" element={<Installation />} /> 
           <Route path="*" element={<NotFound />} />
         </Routes>
